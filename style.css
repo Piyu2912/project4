@@ -15,15 +15,18 @@ header {
     display: flex;
 }
 .logo {
-    width: 207px;
+    width: 707px;
 }
 .time_contain_left {
-    margin-left: 550px;
+    /* margin-left: 550px; */
+    position: absolute;
+    top: 40px;
+    left: 47%;
     background-color: white;
     border: none;
     border-radius: 15px;
     height: 170px;
-    width: 1760px;
+    width: 780px;
     display: flex;
 }
 #clock1{
@@ -106,15 +109,16 @@ header {
 }
 .main {
     margin-left: 8%;
-    margin-top: 4%;
-    width: 80%;
+    margin-top: 104px;
+    height: 400px;
+    width: 1470px;
     display: flex;
 }
 .left_set_time {
-    width: 40%;
+    width: 870px;
     height: 60vh;
     padding-top: 20px;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     margin-right: 120px;
 }
 .set_time{
@@ -208,9 +212,10 @@ select {
     background-image:linear-gradient(to right,#F1A7C5, #FC5EFF, #CB52F8, #6E54EC) ;
 }
 .right_image_display {
+
     border-radius: 15px;
-    width: 41%;
-    height: 60vh;
+    width: 1200px;
+    height: 590px;
     background-color: white;
 }
 #text_right{
@@ -234,4 +239,23 @@ select {
     100% {
         opacity: 1;
      }
+}
+@media (max-width: 1200px) {
+    header{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .main12{
+        position: relative;
+        top: 3px;
+        right: 650px;
+    }
+    .main{
+        display: grid;
+        height: 790px;
+    }
+    .right_image_display{
+        margin-left: 110px;
+        max-width: 50%;
+    }
 }
