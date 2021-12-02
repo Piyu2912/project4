@@ -50,16 +50,16 @@ function settimehere() {
 
     if(i==hourrr){
         document.getElementById("text_right").innerHTML="WAKE UP!!";
-        document.getElementById("image_right").style.backgroundImage="url(./wakeup_image.png)";
+        document.getElementById("image_right").style.backgroundImage="url(./assets/wakeup_image.png)";
     }
 
     else if(j==hourrr){
         document.getElementById("text_right").innerHTML="LETS HAVE SOME Lunch!!";
-        document.getElementById("image_right").style.backgroundImage="url(./lunch_image.png)";
+        document.getElementById("image_right").style.backgroundImage="url(./assets/lunch_image.png)";
     }
     else if(k=hourrr){
         document.getElementById("text_right").innerHTML="GOOD NIGHT!!";
-        document.getElementById("image_right").style.backgroundImage="url(./goodnight_image.png)";
+        document.getElementById("image_right").style.backgroundImage="url(./assets/goodnight_image.png)";
     }
 
     Makediv();
