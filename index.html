@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="./clock_logo@2x.png" alt="logo"></div>
+        <div class="time_contain_left">
+            <div id="clock1">
+                <h2 id="clock1_text">Time</h2>
+            </div>
+            <div id="clock2">
+                <span id="hours" class="hours1"> 00 </span>
+                <p class="para1"> hours </p>
+            </div>
+            <div id="colon">
+                <h2 id="clock1_text">:</h2>
+            </div>
+            <div id="clock2">
+                <span id="minutes" class="hours1"> 00 </span>
+                <p class="para1"> mins </p>
+            </div>
+            <div id="colon">
+                <h2 id="clock1_text">:</h2>
+            </div>
+            <div id="clock2">
+                <span id="seconds" class="hours1"> 00 </span>
+                <p class="para1"> secs </p>
+            </div>
+            <div id="clock2" class="center_am">
+                <span id="am">AM</span>
+            </div>
+            <div id="lb1"></div>
+            <div id="lb2"></div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="left_set_time">
+            <div class="set_time">
+                <div class="set">
+                    <div id="img_point1" class="point_style"></div>
+                    <div class="text_set">
+                    <label for="wake_time">Set Wake up Time</label>
+                    <select name="wake_time" id="wake_time1">
+                        <option value="777">DEFAULT</option>
+                        <option value="1">1 AM - 2 AM</option>
+                        <option value="2">2 AM - 3 AM</option>
+                        <option value="3">3 AM - 4 AM</option>
+                        <option value="4">4 AM - 5 AM</option>
+                        <option value="5">5 AM - 6 AM</option>
+                        <option value="6">6 AM - 7 AM</option>
+                        <option value="7">7 AM - 8 AM</option>
+                        <option value="8">8 AM - 9 AM</option>
+                        <option value="9">9 AM - 10 AM</option>
+                        <option value="10">10 AM - 11 AM</option>
+                        <option value="11">11 AM - 12 PM</option>
+                        <option value="12">12 PM - 1 PM</option>
+                        <option value="13">1 PM - 2 PM</option>
+                        <option value="14">2 PM - 3 PM</option>
+                        <option value="15">3 PM - 4 PM</option>
+                        <option value="16">4 PM - 5 PM</option>
+                        <option value="17">5 PM - 6 PM</option>
+                        <option value="18">6 PM - 7 PM</option>
+                        <option value="19">7 PM - 8 PM</option>
+                        <option value="20">8 PM - 9 PM</option>
+                        <option value="21">9 PM - 10 PM</option>
+                        <option value="22">10 PM - 11 PM</option>
+                        <option value="23">11 PM - 12 PM</option>
+                        <option value="0">12 AM - 1 AM</option>
+                    </select>
+                </div>
+                </div>
+                <div class="set">
+                    <div id="img_point2" class="point_style"></div>
+                    <div class="text_set">
+                    <label for="lunch_time">Set Lunch Time</label>
+                    <select name="lunch_time" id="lunch_time1">
+                        <option value="777">DEFAULT</option>
+                        <option value="1">1 AM - 2 AM</option>
+                        <option value="2">2 AM - 3 AM</option>
+                        <option value="3">3 AM - 4 AM</option>
+                        <option value="4">4 AM - 5 AM</option>
+                        <option value="5">5 AM - 6 AM</option>
+                        <option value="6">6 AM - 7 AM</option>
+                        <option value="7">7 AM - 8 AM</option>
+                        <option value="8">8 AM - 9 AM</option>
+                        <option value="9">9 AM - 10 AM</option>
+                        <option value="10">10 AM - 11 AM</option>
+                        <option value="11">11 AM - 12 PM</option>
+                        <option value="12">12 PM - 1 PM</option>
+                        <option value="13">1 PM - 2 PM</option>
+                        <option value="14">2 PM - 3 PM</option>
+                        <option value="15">3 PM - 4 PM</option>
+                        <option value="16">4 PM - 5 PM</option>
+                        <option value="17">5 PM - 6 PM</option>
+                        <option value="18">6 PM - 7 PM</option>
+                        <option value="19">7 PM - 8 PM</option>
+                        <option value="20">8 PM - 9 PM</option>
+                        <option value="21">9 PM - 10 PM</option>
+                        <option value="22">10 PM - 11 PM</option>
+                        <option value="23">11 PM - 12 PM</option>
+                        <option value="0">12 AM - 1 AM</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="set new_set">
+                    <div id="img_point3" class="point_style"></div>
+                    <div class="text_set">
+                    <label for="nap_time">Set Nap Time</label>
+                    <select name="nap_time" id="nap_time1">
+                        <option value="777">DEFAULT</option>
+                        <option value="1">1 AM - 2 AM</option>
+                        <option value="2">2 AM - 3 AM</option>
+                        <option value="3">3 AM - 4 AM</option>
+                        <option value="4">4 AM - 5 AM</option>
+                        <option value="5">5 AM - 6 AM</option>
+                        <option value="6">6 AM - 7 AM</option>
+                        <option value="7">7 AM - 8 AM</option>
+                        <option value="8">8 AM - 9 AM</option>
+                        <option value="9">9 AM - 10 AM</option>
+                        <option value="10">10 AM - 11 AM</option>
+                        <option value="11">11 AM - 12 PM</option>
+                        <option value="12">12 PM - 1 PM</option>
+                        <option value="13">1 PM - 2 PM</option>
+                        <option value="14">2 PM - 3 PM</option>
+                        <option value="15">3 PM - 4 PM</option>
+                        <option value="16">4 PM - 5 PM</option>
+                        <option value="17">5 PM - 6 PM</option>
+                        <option value="18">6 PM - 7 PM</option>
+                        <option value="19">7 PM - 8 PM</option>
+                        <option value="20">8 PM - 9 PM</option>
+                        <option value="21">9 PM - 10 PM</option>
+                        <option value="22">10 PM - 11 PM</option>
+                        <option value="23">11 PM - 12 PM</option>
+                        <option value="0">12 AM - 1 AM</option>
+                    </select>
+                    </div>
+                </div>
+            </div>
+            <div class="greet">
+                <p id="greet_text">HELLO!!</p>
+            </div>
+            <div id="clicka" onclick="settimehere()">Party Time!</div>
+        </div>
+        <div class="right_image_display">
+            <div id="text_right">Welcome to RemClock!</div>
+            <div id="image_right"></div>
+        </div>
+    </div>
+    <div class="back"></div>
+    <script src="./script.js"></script>
+</body>
+</html>

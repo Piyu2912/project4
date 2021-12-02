@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-color: #3D087B;
+}
+header {
+    margin-left: 8%;
+    margin-top: 2.4%;
+    width: 1530px;
+    display: flex;
+}
+.logo {
+    width: 207px;
+}
+.time_contain_left {
+    margin-left: 550px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    height: 170px;
+    width: 1760px;
+    display: flex;
+}
+#clock1{
+    text-align: center;
+    width: 15%;
+    height: 80%;
+    padding-top: 13px;
+    padding-left: 35px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#clock2{
+    text-align: center;
+    border-radius: 4px;
+    width: 13%;
+    height: 60%;
+    float: left;
+    margin-top: 17px;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding: 15px;
+    align-items: center;
+    font-size: 33px;
+    background-color: #F6E2FF;
+}
+.center_am{
+    color: white;
+    background-image: url("./AM_svg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+}
+.hours1{
+    color: #8A11BF;
+}
+.para1{
+    margin-top: 10px;
+    color: #5F0089;
+}
+#colon{
+    text-align: center;
+    width: 2%;
+    height: 80%;
+    padding-top: 13px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#lb1{
+    width: 715px;
+    height: 170px;
+    position: absolute;
+    top: 60px;
+    left: 49%;
+    margin: auto;
+    opacity: 0.71;
+    z-index: -1;
+    border-radius: 15px;
+    background-color: white;
+}
+#lb2{
+    width: 680px;
+    height: 170px;
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    margin: auto;
+    opacity: 0.22;
+    z-index: -2;
+    border-radius: 15px;
+    background-color: white;
+}
+.main {
+    margin-left: 8%;
+    margin-top: 4%;
+    width: 80%;
+    display: flex;
+}
+.left_set_time {
+    width: 40%;
+    height: 60vh;
+    padding-top: 20px;
+    margin-left: 5%;
+    margin-right: 120px;
+}
+.set_time{
+    font-family: 'Manrope', sans-serif;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    padding-left: 0.4px;
+    padding-right: 35px;
+    border-radius: 8px;
+}
+.set {
+    display: flex;
+    line-height: 30px;
+    align-items: center;
+    padding-left: 2px;
+    padding-bottom: 50px;
+    /* margin: 30px; */
+}
+.new_set {
+    padding-bottom: 0px;
+}
+.text_set {
+    display: flex;
+}
+label {
+    width: 250px;
+    font-size: 20px;
+    color: #3D087B;
+    /* padding-right: 70px; */
+}
+select {
+    object-position: right;
+    background-color: white;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    float: right;
+    width: 240px;
+    text-align: center;
+    color: #3D087BDE;
+    font-size: 16px;
+    padding: 12px;
+    padding-right: 144px;
+}
+.greet {
+    border-radius: 8px;
+    margin-top: 13px;
+    width: 100%;
+    padding-left: 13px;
+    padding: 18px;
+    background-color: #5F0089;
+    color: white;
+    font-size: 27px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 900;                              
+    text-transform: uppercase;
+}
+.greet_text{
+    color: white;
+}
+.point_style {
+    width: 20%;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: inline-block;
+}
+#img_point1{
+    background-image: url("./wake_up.png");
+}
+#img_point2{
+    background-image: url("./lunch_time.png");
+}
+#img_point3{
+    background-image: url("./nap_time.png");
+}
+#clicka{
+    color: white;
+    border-radius: 4px;
+    font-size: 25px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    margin-top: 15px;
+    border: none;
+    background-image: linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
+}
+#clicka:hover{
+    scale: 1.014;
+    cursor: grab;
+    background-image:linear-gradient(to right,#F1A7C5, #FC5EFF, #CB52F8, #6E54EC) ;
+}
+.right_image_display {
+    border-radius: 15px;
+    width: 41%;
+    height: 60vh;
+    background-color: white;
+}
+#text_right{
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    color: #6E54EC;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 19px;
+}
+#image_right{
+    background-image: url("./clockgif.gif");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
